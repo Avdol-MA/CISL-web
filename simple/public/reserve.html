@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Slot</title>
+    <link rel="stylesheet" href="reserve.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d66e511494.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="">
+            </div>
+            <div class="primary-nav body-font">
+
+                <ul role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <div class="control-panel">
+                <div class="change-theme" data-id='light'>
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <button class="tt">Reserve time</button>
+
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="heading container">
+                <h2>Reserve your Time Slot</h2>
+
+            </div>
+        </section>
+        <section class="details">
+            <div class="container">
+                <h2>Enter Details:</h2>
+                <form id="res-form">
+                    <div class="detail-form">
+                        <div class="label-divs">
+
+                            <label for="fname">Name:</label>
+                            <input type="text" id="fname " name="fname" required>
+                        </div>
+                        <div class="label-divs">
+
+                            <label for="fpurpose">Purpose:</label>
+                            <input type="text" id="fpurpose " name="fpurpose" required>
+                        </div>
+                        <div class="label-divs">
+
+                            <label for="fdept">Department:</label>
+                            <input type="text" id="fdept " name="fdept" required>
+                        </div>
+                    </div>
+
+                    <div class="timetable">
+                        <table>
+                            <tr class="head">
+                                <th></th>
+                                <th>8:00-10:00</th>
+                                <th>10:00-12:00</th>
+                                <th>12:00-2:00</th>
+                                <th>2:00-4:00</th>
+                            </tr>
+                            <tr class="Monday">
+                                <td class="day">Monday</td>
+                                <td data-id="0"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="1"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="2"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="3"><i class="fa-solid fa-plus"></i></td>
+                            </tr>
+                            <tr class="Tuesday">
+                                <td class="day">Tuesday</td>
+                                <td data-id="4"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="5"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="6"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="7"><i class="fa-solid fa-plus"></i></td>
+                            </tr>
+                            <tr class="Wednesday">
+                                <td class="day">Wednesday</td>
+                                <td data-id="8"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="9"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="10"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="11"><i class="fa-solid fa-plus"></i></td>
+                            </tr>
+                            <tr class="Thursday">
+                                <td class="day">Thursday</td>
+                                <td data-id="12"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="13"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="14"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="15"><i class="fa-solid fa-plus"></i></td>
+                            </tr>
+                            <tr class="Friday">
+                                <td class="day">Friday</td>
+                                <td data-id="16"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="17"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="18"><i class="fa-solid fa-plus"></i></td>
+                                <td data-id="19"><i class="fa-solid fa-plus"></i></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <input id="submit" type="submit" value="Reserve">
+
+                </form>
+
+            </div>
+            <dialog class="success">
+                <h3>TimeTable updated</h3>
+                <p>Page will refresh automatically</p>
+            </dialog>
+            <dialog class="fail">
+                <h3>There was an error. Please Try Again</h3>
+                <button class="close-modal">Close Modal</button>
+            </dialog>
+        </section>
+
+    </main>
+
+    <script src="reserve.js" type="module"></script>
+    <script src="pageChanges.js" type="module"></script>
+</body>
+
+</html>

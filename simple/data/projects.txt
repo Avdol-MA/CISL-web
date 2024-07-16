@@ -1,0 +1,13 @@
+CISL’s DNS Proxy Server
+AES-enabled File Hider for windows systems
+Military Grade Digital Minute sheet on USB
+Notepad hook for text file surveillance
+Payload injection using windows shortcuts
+Using exchange telephone for file tx
+Chaos-based Encryption Scheme for Transfer Control Protocol (TCP) Data Packet
+Novel Information Hiding Schemes Based on Confusion Components and Wavelet Transformation
+Construction of Secure Encryption Algorithms based on Dynamical System
+Construction of Nonlinear Component of Block ciphers and Its Application in Digital Content Confidentiality
+Secure Encryption Scheme based on Quantum Spinning and Rotation
+Optical Image Encryption by Using Wavelets Transforms
+Digital Content Privacy Using Deoxyribonucleic Acid (DNA) Sequences

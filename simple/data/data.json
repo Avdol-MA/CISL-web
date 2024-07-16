@@ -1,0 +1,54 @@
+{
+    "collab": [
+        {
+            "id": 0,
+            "name": "Dr. Haider Abbas, IET Fellow",
+            "dgn": "HoD Research,",
+            "qualif": "Military College of Signals & Director, National Cyber Security Auditing & Evaluation Lab, NUST",
+            "desc": "Haider Abbas (SMIEEE) is a cyber-security scientist who took professional trainings and certifications from Massachusetts Institute of Technology (MIT), USA, Stockholm University, Sweden, IBM and EC-Council. His professional services include - Journal Editorships, Industry Consultations, Workshops Chair, TPC Member and Invited/Keynote Speaker for several international conferences. Dr. Abbas has received several grants and working on scientific projects in USA, EU, KSA and Pakistan."
+        },
+        {
+            "id":1,
+            "name":"Prof. Dr. Seong Oun Hwang",
+            "dgn":"Lab for Information Security and Machine Learning",
+            "qualif":"Hongik University (Sejong), Korea",
+            "desc":"Prof. Dr. Seong Oun Hwang received the B.S. degree in Mathematics in 1993 from Seoul National University, M.S. degree in Computer and Communications Engineering in 1998 from Pohang University of Science and Technology, and Ph. D. degree in Computer Science from Korea Advanced Institute of Science and Technology, all in Korea. He worked as Software Engineer at LG-CNS Systems, Inc. from 1994 to 1996. Between 1998 and 2007, I worked for ETRI (Electronics and Telecommunications Research Institute) for ten years as Senior Researcher. Since March 2008, I have been with Hongik University as Professor in Department of Software and Communications Engineering. His research interests include cryptography, network and machine learning."
+        
+        },
+        {
+            "id":2,
+            "name":"Prof. Dr. Tariq Shah",
+            "dgn":"Department of Mathematics",
+            "qualif":"Quaid-i-Azam University, Islamabad",
+            "desc":"Dr. Tariq Shah currently serving as Professor in department of Mathematics at Quaid-i-Azam University. His topics of research are commutative algebra, algebraic coding theory, cryptography, wireless communication, generalization of algebraic structure, fuzzy and soft structures in development of economics."
+        },
+        {
+            "id":3,
+            "name":"Dr. Hassan Mahmood",
+            "dgn":"Department of Electronics",
+            "qualif":"Quaid-i-Azam University, Islamabad",
+            "desc":"Dr. Hassan Mahmood received the M.Sc. degree in electronics from Quaid-i-Azam University, Islamabad, Pakistan, in 1991, the M.S. degree in electrical engineering from the University of Ulm, Germany, in 2002, and the Ph.D. degree in electrical engineering from the Stev ens Institute of Technology, Hoboken, NJ, USA, in 2007. From 1994 to 2000, he was a Faculty Member with the Department of Electronics, Quaid-i-Azam University, where he is currently an Associate Professor and HoD at Department of Electronics."
+        }
+    ],
+    "news":[
+        {
+            "id":0,
+            "title":"Espionage Campaign to Track Location of Strategic Sites",
+            "date": "June 26, 2023",
+            "url":"https://www.ist.edu.pk/cisl-espionage-campaign-to-track-location-of-strategic-sites"
+        },
+        {
+            "id":1,
+            "title":"Espionage Campaign to Track Location of Strategic Sites",
+            "date": "June 26, 2023",
+            "url":"https://www.ist.edu.pk/cisl-espionage-campaign-to-track-location-of-strategic-sites"
+        },
+        {
+            "id":2,
+            "title":"Espionage Campaign to Track Location of Strategic Sites",
+            "date": "June 26, 2023",
+            "url":"https://www.ist.edu.pk/cisl-espionage-campaign-to-track-location-of-strategic-sites"
+        }
+    ]
+
+}
